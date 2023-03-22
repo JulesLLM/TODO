@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToDo List</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>ToDo List</h1>
+
+  <form id="ajouter-todo-form">
+    <label>
+      Tâche à faire :
+      <input type="text" name="tache">
+    </label>
+    <label>
+      Échéance :
+      <input type="date" name="echeance">
+    </label>
+    <button type="submit">Ajouter</button>
+  </form>
+
+  <ul id="todos-list">
+    <!-- La liste des tâches sera ajoutée ici via JavaScript -->
+  </ul>
+  <!-- "script.js" qui permet de communiquer avec le serveur via AJAX pour effectuer les opérations CRUD sur les tâches à faire -->
+  <script src="script.js"></script>
+</body>
+</html>
