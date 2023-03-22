@@ -2,7 +2,7 @@
 
 function connectToDatabase() {
   // Connexion à la base de données
-  $db = new PDO('mysql:host=db.3wa.io;dbname=juleslemercier_API_TODO', 'juleslemercier', '670ceb7ff781c48a3c904eee72672a40');
+  $db = new PDO('mysql:host=;dbname=, , );
   return $db;
 }
 
